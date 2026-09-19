@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - Mehar Pharmaceuticals</title>
+    <style>
+        body { font-family: Arial; background: #2c3e50; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .box { background: white; padding: 30px; border-radius: 10px; width: 320px; text-align: center; }
+        input, button { width: 100%; padding: 10px; margin-top: 10px; box-sizing: border-box; }
+        button { background: #e74c3c; color: white; border: none; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>🔒 Activate & Register</h2>
+        <form action="/register" method="POST">
+            <input type="text" name="username" placeholder="Choose Username" required>
+            <input type="password" name="password" placeholder="Choose Password" required>
+            <input type="password" name="license_key" placeholder="Enter Product License Key" required>
+            <button type="submit">Activate Account</button>
+        </form>
+        <p style="font-size: 12px; color: #7f8c8d; margin-top: 10px;">Dev: Mehar Mehrab Waris</p>
+        <p style="font-size: 13px;"><a href="/login">Back to Login</a></p>
+    </div>
+</body>
+</html>

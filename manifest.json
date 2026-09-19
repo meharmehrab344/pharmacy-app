@@ -1,0 +1,16 @@
+{
+  "name": "Mehar Pharmaceuticals",
+  "short_name": "Mehar Pharma",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#008000",
+  "icons": [
+    {
+      "src": "/static/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
+
